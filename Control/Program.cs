@@ -13,4 +13,16 @@ void Array(string[] array1, string[]array2)
         }
     }
 }
+void PrintArray (string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+
+        Console.Write($"{ array[i]   }  ");
+    // break;
+    }
+
+}
 Array(array1, array2);
+Console.WriteLine("Сформированный массив строк, длина которых меньше либо  равна трём символам: ");
+PrintArray(array2);

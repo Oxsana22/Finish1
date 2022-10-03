@@ -1,7 +1,8 @@
-﻿
- string[] array1 = {"2", "hello", "world"};
+﻿string[] array1 = {"2", "hello", "world", ":)"};
  string[] array2 = new string[array1.Length];
 
+void Array(string[] array1, string[]array2)
+{
     int count =0;
     for (int i = 0; i < array1.Length; i++)
     {
@@ -11,6 +12,5 @@
             count++;
         }
     }
-
-
- 
+}
+Array(array1, array2);
